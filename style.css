@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'GT America Standard', sans-serif;
+}
+
+.main_container {
+    padding-top: 80px;
+    padding-bottom: 115px;
+    background-color: #DADBF1;
+}
+
+.container {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.text {
+    color: #000;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.search_box {
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+}
+
+.box input {
+    flex: 1;
+    height: 30px;
+    padding: 8px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+}
+
+.box button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav {
+    height: 88px;
+    background-color: #000;
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo_img_text a {
+    gap: 100px;
+}
+
+.card-container {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: calc(33.33% - 20px); /* Adjust the width based on the number of cards you want in a row */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.download-link:hover {
+    background-color: #27ae60;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px); /* Adjust the width for smaller screens */
+    }
+}
