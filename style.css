@@ -121,3 +121,9 @@ nav {
         width: calc(50% - 20px); /* Adjust the width for smaller screens */
     }
 }
+.logo_img_text {
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
+    font-size: x-large;
+}
