@@ -66,4 +66,18 @@ This project is a React-based web application that allows parents to securely up
 
 ## Flow Diagram
 
-+--------------------+ +---------------------------+ | React App |<------>| Backend API (Node.js) | +--------------------+ +---------------------------+ | | | | v v +--------------------+ +---------------------------+ | Authentication |<----->| OTP/Code Logic | +--------------------+ +---------------------------+ | | v v +--------------------+ +---------------------------+ | File Management |<------>| Storage (AWS S3, etc.) | +--------------------+ +---------------------------+ | | v v +--------------------+ +---------------------------+ | Database | | Parent Directories | +--------------------+ +---------------------------+
+## Flow Diagram
+
+| React App             | Backend API (Node.js)       |
+|-----------------------|-----------------------------|
+|                       |                             |
+|                       |                             |
+|                       |                             |
+| Authentication        | OTP/Code Logic              |
+|                       |                             |
+|                       |                             |
+| File Management       | Storage (AWS S3, etc.)      |
+|                       |                             |
+|                       |                             |
+| Database              | Parent Directories          |
+
